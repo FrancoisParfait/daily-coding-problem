@@ -4,7 +4,7 @@ int possible_numbers = 0;
 
 int main (void)
 {
-    int k;
+    int k = 0;
     int size;
 
     printf("Enter the size of the array:\n");
