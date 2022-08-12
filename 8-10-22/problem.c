@@ -29,11 +29,11 @@ int main (void)
     {
         int subtracted_number = 0;
 
-        subtracted_number = k - array[i];
+        subtracted_number = k - array[j];
 
         for (int l = 0; l < size; l++)
         {
-            if (subtracted_number == array[i])
+            if (subtracted_number == array[l])
             {
                 possible_numbers++;
             }
