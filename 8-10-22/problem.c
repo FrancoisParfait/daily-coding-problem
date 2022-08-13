@@ -12,13 +12,22 @@ int main (void)
 
     int array[size];
 
-    printf("Enter %i numbers:\n", size);
+    printf("Enter the array elements:\n");
+
     for (int i = 0; i < size; i++)
     {
-        scanf("%i", &array[size]);
+        printf("array[%i]= ", i);
+        scanf("%i", &array[i]);
     }
 
-    printf("The current array is: %i\n", array[i]);
+
+//Check array contents
+   printf("\n");
+
+   for (int i = 0; i < size; i++)
+   {
+    printf("array[%i] = %i\n", i, array[i]);
+   }
 
 
     printf("Enter the master number:\n");
