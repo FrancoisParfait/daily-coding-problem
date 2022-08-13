@@ -16,19 +16,9 @@ int main (void)
 
     for (int i = 0; i < size; i++)
     {
-        printf("array[%i]= ", i);
+        printf("array[%i] = ", i);
         scanf("%i", &array[i]);
     }
-
-
-//Check array contents
-   printf("\n");
-
-   for (int i = 0; i < size; i++)
-   {
-    printf("array[%i] = %i\n", i, array[i]);
-   }
-
 
     printf("Enter the master number:\n");
     scanf("%i", &k);
